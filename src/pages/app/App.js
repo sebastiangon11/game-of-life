@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import Grid from '../../components/Grid/Grid';
 
 function App() {
   return (
-    <div className="App">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+    <div>
+        {/* <img src={logo} alt="logo" /> */}
+        <Grid height={10} width={7} />
     </div>
   );
 }
