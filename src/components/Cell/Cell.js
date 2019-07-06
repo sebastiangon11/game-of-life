@@ -1,10 +1,9 @@
 import React from 'react';
+import './Cell.css';
 
 function Cell({ value }) {
   return (
-    <span className="cell">
-        {value}
-    </span>
+    <div className={`cell ${value ? 'cell-filled' : ''}`} />
   );
 }
 

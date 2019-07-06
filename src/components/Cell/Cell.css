@@ -1,0 +1,19 @@
+.cell {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #ececec;
+}
+
+.cell-filled {
+  background-color: black;
+  /* animation: fadeIn 1000ms ease-in-out 1s forwards; */
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0
+  } to {
+    opacity: 1
+  }
+}
